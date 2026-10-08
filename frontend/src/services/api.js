@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://deployed-smart-expense-splitter-mernstack.onrender.com/api',
 });
 
 // Request Interceptor: har request mein Token auto-attach karne ke liye
